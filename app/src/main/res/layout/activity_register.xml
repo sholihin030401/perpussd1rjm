@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verify.RegisterActivity">
+
+    <EditText
+        android:id="@+id/namalengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/nama_lengkap"/>
+
+    <EditText
+        android:id="@+id/tgllahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="date"
+        android:layout_below="@id/namalengkap"
+        android:hint="@string/tempat_tanggal_lahir"/>
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/jk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tgllahir"
+        android:layout_margin="20dp"
+        app:smsp_hint="Jenis Kelamin" />
+
+    <EditText
+        android:id="@+id/asal_sklh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/asal_sekolah_mengajar"
+        android:layout_below="@id/jk"/>
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/user_tipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/asal_sklh"
+        android:layout_margin="20dp"
+        app:smsp_hint="Masuk Sebagai" />
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_tipe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/daftar" />
+</RelativeLayout>

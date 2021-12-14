@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "459744292151",
+    "project_id": "perpus-sdn-1-rejomulyo",
+    "storage_bucket": "perpus-sdn-1-rejomulyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459744292151:android:a41dbc52f9be1b8b91feb2",
+        "android_client_info": {
+          "package_name": "com.example.perpussdn1rejomulyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459744292151-ps1f5s776h0k0e2a9q4usaa1jh7sg1vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9CnBQ6w1twKFVHDpNh60IXA_76KEuAq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459744292151-ps1f5s776h0k0e2a9q4usaa1jh7sg1vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
